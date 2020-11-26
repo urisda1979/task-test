@@ -69,8 +69,8 @@ h2 {
 }
 
 .main-head-title {
-    width: 380px;
-    height: 116px;
+    /*width: 380px;
+    height: 116px;*/
     margin: 80px auto;
     font-family: OpenSans, sans-serif;
     font-size: 48px;
@@ -78,8 +78,8 @@ h2 {
 }
 
 .head-text {
-    width: 880px;
-    height: 48px;
+    /*width: 880px;
+    height: 48px;*/
     margin: 84px auto;
     font-size: 18px;
     line-height: 23px;
@@ -130,8 +130,8 @@ h2 {
 }
 
 .text {
-    width: 270px;
-    height: 73px;
+    /*width: 270px;
+    height: 73px;*/
     margin: 11px auto 37px auto;
     font-size: 14px;
     line-height: 18px;
@@ -142,15 +142,15 @@ h2 {
 }
 
 .text-02 {
-    width: 1060px;
-    height: 45px;
+    /*width: 1060px;*/
+    /*height: 45px;*/
     margin: 30px auto 57px auto;
     font-size: 16px;
     line-height: 21px;
 }
 
 .text-03 {
-    height: 109px;
+    /*height: 109px;*/
     margin-bottom: 29px;
 }
 
@@ -164,7 +164,7 @@ h2 {
     text-align: center;
 }
 
-.pictures {
+/*.pictures {
     width: 713px;
     height: 105px;
     margin: 0 auto;
@@ -176,7 +176,7 @@ h2 {
 
 .picture-02 {
     margin: 25px 0 0 0;
-}
+}*/
 
 .footer {
     background-color: #19263F;
