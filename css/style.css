@@ -31,10 +31,13 @@ h2 {
     margin: 0;
 }
 
+.header, .nav-link, .navbar-toggler-icon, .dropdown-item, .footer {
+    color: #FFFFFF !important;
+} 
+
 .header {
     background: url('../img/main-bg.png');
     height: 500px;
-    color: #fff;
 }
 
 .navbar {
@@ -45,19 +48,27 @@ h2 {
 
 .nav-link {
     margin-left: 53px;
-    color: #fff;
+}
+
+.navbar-toggler {
+    margin: 0 auto;
+    font-size: 1.5em;
 }
 
 .log-nav-link {
     margin-left: 30px;
 }
 
-.nav-link:hover {
-    color: #ffff00;
+.nav-link:hover, .dropdown-item:hover {
+    color: #ffff00 !important;
 }
 
-.nav-link:active {
-    color: #ff0000;
+.nav-link:active, .dropdown-item:active {
+    color: #ff0000 !important;
+}
+
+.dropdown-menu, .dropdown-item:hover {
+    background: none;
 }
 
 .login-nav {
@@ -69,8 +80,6 @@ h2 {
 }
 
 .main-head-title {
-    /*width: 380px;
-    height: 116px;*/
     margin: 80px auto;
     font-family: OpenSans, sans-serif;
     font-size: 48px;
@@ -78,9 +87,7 @@ h2 {
 }
 
 .head-text {
-    /*width: 880px;
-    height: 48px;*/
-    margin: 84px auto;
+     margin: 84px auto;
     font-size: 18px;
     line-height: 23px;
 }
@@ -130,9 +137,7 @@ h2 {
 }
 
 .text {
-    /*width: 270px;
-    height: 73px;*/
-    margin: 11px auto 37px auto;
+     margin: 11px auto 37px auto;
     font-size: 14px;
     line-height: 18px;
 }
@@ -142,41 +147,29 @@ h2 {
 }
 
 .text-02 {
-    /*width: 1060px;*/
-    /*height: 45px;*/
-    margin: 30px auto 57px auto;
+     margin: 30px auto 57px auto;
     font-size: 16px;
     line-height: 21px;
 }
 
 .text-03 {
-    /*height: 109px;*/
     margin-bottom: 29px;
 }
 
 .view-all {
+    background: none;
+    color: #000000;
     width: 231px;
     height: 56px;
     border: 1px solid #85B657;
     box-sizing: border-box;
     border-radius: 4px;
     margin: 15px auto 80px auto;
+    padding: auto;
     text-align: center;
+    text-decoration: none;
+    font-size: 14px;
 }
-
-/*.pictures {
-    width: 713px;
-    height: 105px;
-    margin: 0 auto;
-}
-
-.picture-01 {
-    margin-right: 35px;
-}
-
-.picture-02 {
-    margin: 25px 0 0 0;
-}*/
 
 .footer {
     background-color: #19263F;
@@ -184,5 +177,35 @@ h2 {
     margin-top: 117px;
 }
 
+.social-icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    font-size: 31px;
+    text-align: center;
+    text-decoration: none;
+}
 
+@media screen and (max-device-width: 1200px) {
+    .login-nav {
+        margin-left: 0;
+   }
+   .nav-link {
+    margin-left: 30px;
+    }
+}
 
+@media screen and (max-device-width: 766px) {
+    .header {
+        height: auto;
+    }
+   
+    .main-block {
+        margin: 20px 10px;
+    }
+
+    .head-text {
+        margin: 25px auto;
+    }
+}
