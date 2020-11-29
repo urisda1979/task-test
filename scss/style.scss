@@ -26,7 +26,7 @@ body {
     font-family: PTSans-regular, sans-serif;
 }
 h2 {
-    font-family: PTSans-Bold;
+    font-family: PTSans-Bold, sans-serif;
     font-size: 18px;
     line-height: 23px;
     text-align: center;
@@ -38,7 +38,7 @@ h2 {
 .dropdown-item,
 .footer,
 .social-icon a {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 .header {
     background: url("../img/main-bg.png");
@@ -66,12 +66,12 @@ h2 {
 .nav-link:hover,
 .dropdown-item:hover,
 .social-icon a:hover {
-    color: #ffff00;
+    color: #ffff00 !important;
 }
 .nav-link:active,
 .dropdown-item:active,
 .social-icon a:active {
-    color: #ff0000;
+    color: #ff0000 !important;
 }
 .dropdown-menu,
 .dropdown-item:hover {
